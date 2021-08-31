@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <Style>
+        i {
+            font-size: 20px;
+            background-color: red;
+            color: white;
+            border-radius: 25px;
+            height: 20px;
+            width: 20px;
+            padding: 15px
+        }
+
+        .first {
+            margin-left: 220px;
+        }
+
+        .second {
+            margin-top: 50px;
+            margin-left: 770px;
+        }
+
+        .back {
+            margin-left: 60px;
+            margin-top: -54px;
+            font-size: 49px;
+            color: gray;
+        }
+
+        .box4 {
+            padding-top: 20px;
+            margin-top: 25px;
+            margin-left: 663px;
+            height: 374px;
+            width: 250px;
+            border: 3px solid red;
+            border-radius: 19px;
+            text-align: center;
+            padding-left: 40px;
+            font-size: 27px;
+            padding-right: 73px;
+            box-shadow: 5px 8px 10px 3px rgba(146, 143, 143, 0.533)
+        }
+
+        .plusatbottom {
+            margin-top: 130px;
+            margin-left: 253px;
+        }
+
+        .firsthr {
+            width: 10%;
+            display: inline-block;
+            margin-top: 200px;
+            margin-left: 350px;
+        }
+
+        #texttriptoparis {
+            font-size: 40px;
+            margin-left: 20px;
+            font-weight: 900;
+            font-stretch: expanded;
+        }
+
+        .firsthr2 {
+            width: 10%;
+            display: inline-block;
+            margin-top: 200px;
+            margin-left: 20px;
+        }
+
+        #box4trip {
+            color: red;
+            margin-top: 15px;
+        }
+
+        #box4hr1 {
+            width: 105%;
+            margin-left: 56px;
+        }
+
+        #box4completed {
+            text-decoration: line-through;
+            color: red;
+            margin-left: 30px;
+        }
+        #box4checkbox{
+            height: 15px;
+            width: 35px;
+        }
+
+
+        @media screen and (min-width:350px) and (max-width:380px) {
+            .firsthr {
+                display: none;
+            }
+
+            .firsthr2 {
+                display: none;
+            }
+
+            .first {
+                height: 132px;
+                width: 555px;
+                margin-left: 210px;
+                /* border: 3px solid blue; */
+                margin-top: 124px;
+            }
+
+            #texttriptoparis {
+                font-size: 90px;
+                margin-left: -18px;
+                font-weight: 900;
+                font-stretch: expanded;
+            }
+
+            .back {
+                display: none;
+            }
+
+            i {
+                font-size: 70px;
+                background-color: red;
+                color: white;
+                border-radius: 50%;
+                height: 70px;
+                width: 70px;
+                padding: 15px;
+            }
+
+            .second {
+                margin-left: 23px;
+                margin-top: -120px;
+            }
+
+            .box4 {
+                line-height: 70px;
+                padding-top: 20px;
+                margin-top: 97px;
+                margin-left: 105px;
+                height: 743px;
+                width: 442px;
+                border: 3px solid red;
+                border-radius: 19px;
+                text-align: center;
+                padding-left: 40px;
+                font-size: 27px;
+                padding-right: 73px;
+            }
+
+            #box4trip {
+                color: red;
+                margin-top: 15px;
+                font-size: 63px;
+            }
+
+            #box4completed {
+                font-size: 53px;
+                text-decoration: line-through;
+                color: red;
+                margin-left: 30px;
+            }
+
+            #box4form {
+                font-size: 60px;
+            }
+
+            #box4checkbox {
+                height: 30px;
+                width: 45px;
+            }
+
+            .plusatbottom {
+                margin-top: 203px;
+                margin-left: 373px;
+            }
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="first">
+        <hr class="firsthr">
+        <font id="texttriptoparis">Trip to Paris</font>
+        <hr class="firsthr2">
+    </div>
+    <div class="second">
+        <a style="text-decoration: none;" href="./index.html"><i class="fas fa-arrow-left"></i>
+            <div class="back">Back</div>
+        </a>
+    </div>
+    <div class="box4">
+        <font id="box4trip">Trip to Paris</font>
+        <hr id="box4hr1"> <br>
+        <font id="box4completed">Completed Task</font> <br> <br>
+        <form id="box4form" action="">
+            <input id="box4checkbox" type="checkbox"> Pending Task 
+        </form>
+        <div class="plusatbottom">
+            <a href="./indexadd.html"><i class="fas fa-plus"></i></a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!-- font-size: 40px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-stretch: expanded; -->

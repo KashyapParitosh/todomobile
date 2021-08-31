@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <style>
+        .cont {
+            background-image: url(./image\ 2\ add.PNG);
+            height: 95vh;
+            width: 100%;
+            filter: blur(8px);
+            background-position-x: 220px;
+            background-size: contain;
+        }
+
+        .container {
+            background-color: white;
+            height: 200px;
+            width: 400px;
+            border: 3px solid red;
+            position: absolute;
+            top: 47px;
+            margin-top: 304px;
+            left: 727px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+            z-index: 3;
+            box-shadow: 5px 8px 10px 3px rgba(146, 143, 143, 0.533)
+        }
+
+        #addnewlist {
+            margin-top: 20px;
+            color: red;
+            font-size: 25px;
+        }
+
+        .box {
+            height: 40px;
+            width: 250px;
+            border: 2px solid red;
+            border-radius: 5px;
+            margin-top: 17px;
+            margin-left: 80px;
+        }
+
+        .add {
+            height: 30px;
+            width: 75px;
+            border: 3px solid red;
+            border-radius: 44px;
+            margin-top: 25px;
+            margin-left: 140px;
+            font-size: 25px;
+            padding: 10px;
+            color: white;
+            background-color: red;
+        }
+
+        @media screen and (min-width:350px) and (max-width:380px) {
+            .cont {
+                background-image: url(./mobile\ backimg\ newtodo.PNG);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 214vh;
+                width: 237vw;
+                filter: blur(10px);
+                background-position-x: 0px;
+            }
+
+            .container {
+                background-color: white;
+                height: 420px;
+                width: 631px;
+                border: 3px solid red;
+                position: absolute;
+                top: 0;
+                margin-top: 503px;
+                left: 111px;
+                text-align: center;
+                padding: 10px;
+                border-radius: 20px;
+                z-index: 3;
+            }
+
+            #addnewlist {
+                margin-top: 27px;
+                color: red;
+                font-size: 71px;
+            }
+
+            .box {
+                height: 85px;
+                width: 489px;
+                border: 2px solid red;
+                border-radius: 5px;
+                margin-top: 26px;
+                margin-left: 65px;
+            }
+
+            .add {
+                height: 85px;
+                width: 187px;
+                border: 3px solid red;
+                border-radius: 62px;
+                margin-top: 25px;
+                margin-left: 197px;
+                font-size: 66px;
+                padding: 10px;
+                color: white;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+
+    </div>
+    <div class="container">
+        <div id="addnewlist">Add New Item</div>
+        <div class="box"></div>
+        <div class="add">ADD</div>
+    </div>
+</body>
+
+</html>

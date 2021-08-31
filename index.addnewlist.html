@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body:before {
+	        content: '';
+	        position: fixed;
+	        width: 100vw;
+	        height: 100vh;
+	        background-image: url("./image\ home.PNG");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+            z-index: -9;    
+        } */
+        .cont1 {
+            background-image: url(./image\ home.PNG);
+            height: 98vh;
+            width: 100%;
+            filter: blur(8px);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -50px;
+        }
+
+        .container {
+            position: absolute;
+            top: 55px;
+            left: 746px;
+            background-color: white;
+            height: 200px;
+            width: 387px;
+            border: 3px solid red;
+            margin: auto;
+            margin-top: 250px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+            z-index: 3;
+            box-shadow: 5px 8px 10px 3px rgba(146, 143, 143, 0.533)
+        }
+
+        #addnewlist {
+            margin-top: 20px;
+            color: red;
+            font-size: 25px;
+        }
+
+        .box {
+            height: 40px;
+            width: 250px;
+            border: 2px solid red;
+            border-radius: 5px;
+            margin-top: 17px;
+            margin-left: 80px;
+        }
+
+        .add {
+            height: 30px;
+            width: 75px;
+            border: 3px solid red;
+            border-radius: 44px;
+            margin-top: 25px;
+            margin-left: 140px;
+            font-size: 25px;
+            padding: 10px;
+            color: white;
+            background-color: red;
+        }
+
+        @media screen and (min-width:350px) and (max-width:380px) {
+            .cont1 {
+                background-image: url(./mainimg.PNG);
+                height: 310vh;
+                width: 323vw;
+                filter: blur(9px);
+                background-size: cover;
+            }
+
+            .container {
+                position: absolute;
+                top: 408px;
+                left: 180px;
+                background-color: white;
+                height: 450px;
+                width: 803px;
+                border: 3px solid red;
+                margin: auto;
+                margin-top: 250px;
+                text-align: center;
+                padding: 10px;
+                line-height: 75px;
+                border-radius: 20px;
+                z-index: 3;
+            }
+
+            #addnewlist {
+                margin-top: 50px;
+                color: red;
+                font-size: 70px;
+            }
+
+            .box {
+                height: 88px;
+                width: 635px;
+                border: 2px solid red;
+                border-radius: 5px;
+                margin-top: 42px;
+                margin-left: 80px;
+            }
+
+            .add {
+                height: 70px;
+                width: 180px;
+                border: 3px solid red;
+                border-radius: 44px;
+                margin-top: 47px;
+                margin-left: 298px;
+                font-size: 50px;
+                padding: 10px;
+                color: white;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont1">
+
+    </div>
+    <div class="container">
+        <div id="addnewlist">Add New List</div>
+        <div class="box"></div>
+        <div class="add">ADD</div>
+    </div>
+</body>
+
+</html>
